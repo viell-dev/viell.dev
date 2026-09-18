@@ -1,4 +1,4 @@
-# viell-dev.github.io
+# viell.dev
 
 Source for [viell.dev](https://viell.dev), a personal site built with
 [VitePress](https://vitepress.dev) (Vue 3 + TypeScript), deployed to GitHub Pages.
@@ -40,3 +40,6 @@ pnpm lint         # Run ESLint + Prettier with auto-fix
 
 Pushes to `main` trigger the GitHub Actions workflow in `.github/workflows/deploy.yml`, which
 builds the site and deploys it to GitHub Pages.
+
+The repository is named `viell.dev` so it is a project site. Its custom domain applies only to
+this website, without being inherited by other GitHub Pages projects on the account.
