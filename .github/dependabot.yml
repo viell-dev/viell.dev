@@ -1,0 +1,20 @@
+# Dependabot configuration.
+#
+# Version updates are disabled (open-pull-requests-limit: 0); only security
+# updates are opened for this repo. This file exists mainly so that ignore
+# rules below also apply to those security update PRs.
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 0
+    ignore:
+      # vitest 4.x requires Vite 6+, but VitePress 1.x pins Vite 5 and there
+      # is no stable VitePress 2 yet. pnpm resolves vitest's vite peer to
+      # VitePress's copy and `vitest run` crashes at startup with
+      # ERR_PACKAGE_PATH_NOT_EXPORTED for `vite/module-runner`.
+      # Drop this rule once VitePress 2 is stable and upgraded here.
+      - dependency-name: "vitest"
+        update-types: ["version-update:semver-major"]
