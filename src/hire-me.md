@@ -71,8 +71,7 @@ maintenance retainer with a previous client; it doesn't limit my availability.
 ## Contact
 
 - **Email**: [me@viell.dev](mailto:me@viell.dev)
-- **Codeberg**: [viell](https://codeberg.org/viell)
 - **GitHub**: [viell-dev](https://github.com/viell-dev)
 - **Discord**: [viell-dev](https://discord.com/users/310798899738574849)
 
-<small>Last updated: July 2026</small>
+<small>Last updated: October 2026</small>
