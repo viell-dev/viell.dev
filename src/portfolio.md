@@ -13,7 +13,7 @@ short on purpose - these are the released ones, with more on the way. You can fi
 ## strata-reader
 
 A dependency-free Rust crate, published on [crates.io](https://crates.io/crates/strata-reader) with
-source on [Codeberg](https://codeberg.org/Devious-Concepts/strata-reader).
+source on [GitHub](https://github.com/viell-dev/strata-reader).
 
 It's a dynamically buffered reader in almost entirely safe Rust, extending the `std::io::BufReader`
 concept with automatic buffer growth, explicit memory control, and consumed-data lookbehind. It
