@@ -22,7 +22,6 @@ const config = defineConfig({
         icon: "discord",
         link: "https://discord.com/users/310798899738574849",
       },
-      { icon: "codeberg", link: "https://codeberg.org/viell" },
       { icon: "github", link: "https://github.com/viell-dev" },
     ],
   },

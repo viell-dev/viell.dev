@@ -8,8 +8,6 @@ I always have multiple projects in the works, but I only publish the ones I cons
 feature-complete: a project gets cleaned up and polished before it goes public. So this list is
 short on purpose - these are the released ones, with more on the way. You can find me on:
 
-- **Codeberg**: [viell](https://codeberg.org/viell), with my more serious work under the
-  [Devious Concepts](https://codeberg.org/Devious-Concepts) namespace
 - **GitHub**: [viell-dev](https://github.com/viell-dev)
 
 ## strata-reader
@@ -45,7 +43,7 @@ project; the Worker plumbing around it was agent-assisted.
 ## Archived
 
 There's also a decade of older, pre-AI work. Most of it no longer matters, but a few pieces are
-still worth a mention. These repos are archived on GitHub and Codeberg and won't change again.
+still worth a mention. These repos are archived on GitHub and won't change again.
 
 ::: details Older projects (2013 - 2018)
 
@@ -57,25 +55,22 @@ later. They work like the regular trim functions but accept an encoding paramete
 functions. I wrote them for my own use, but being MIT-licensed and a single drop-in file, they
 later ended up running in production in software I maintained professionally. An unfinished,
 configurable PHP 5.6 rework from 2015 lives on a branch.
-[GitHub](https://github.com/viell-dev/mb_trim.php) -
-[Codeberg](https://codeberg.org/viell/mb_trim)
+[GitHub](https://github.com/viell-dev/mb_trim.php)
 
 ### tnebot
 
 A Ruby bot I started in 2014 for a Nintendo forum I was part of. It ran on a schedule
 on a VPS, read the forum's RSS feed, tweeted new entries, and cached what it had already posted in
 SQLite to prevent double-posting. Last touched in early 2015.
-[GitHub](https://github.com/viell-dev/tnebot.rb) -
-[Codeberg](https://codeberg.org/viell/tnebot)
+[GitHub](https://github.com/viell-dev/tnebot.rb)
 
 ### zf3-hashids
 
 A Zend Framework 3 module for the PHP Hashids library: a fork of the
 unmaintained ZF2 module that I updated for ZF3 in 2018 while upgrading the same production
 software `mb_trim` ran in, adding a view helper and hex encode/decode support along the way.
-[GitHub](https://github.com/viell-dev/zf3-hashids) -
-[Codeberg](https://codeberg.org/viell/zf3-hashids)
+[GitHub](https://github.com/viell-dev/zf3-hashids)
 
 :::
 
-<small>Last updated: July 2026</small>
+<small>Last updated: October 2026</small>
